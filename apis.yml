@@ -1,8 +1,14 @@
 aid: human-dx
 name: Human DX
-description: Human DX is a company surfaced as a portfolio company of a16z, dcvc, union-square-ventures,
-  y-combinator and added to the API Evangelist network as a stub for enrichment. This profile is a lead
-  awaiting the enrichment pipeline.
+description: 'The Human Diagnosis Project (Human Dx) is a nonprofit initiative building
+  an open, global medical intelligence system that combines the collective insight
+  of physicians with machine learning to help make high-quality, affordable healthcare
+  accessible to everyone. Its programs pair clinical microlearning and training tools
+  for medical trainees with a specialist eConsult network that connects safety-net
+  and underserved patients and their primary-care providers to volunteer specialists.
+  The organization operates under the tagline "Rise together." Surfaced in the API
+  Evangelist network as a portfolio-lead stub; no public API, developer portal, or
+  machine-readable API surface was found during enrichment.'
 url: https://raw.githubusercontent.com/api-evangelist/human-dx/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,11 +19,30 @@ x-backed-by:
 - y-combinator
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://resources.humandx.org/static/img/symbol_v3_og_image.jpg
 tags:
 - Company
+- Health
+- Healthcare
+- Medical
+- Diagnosis
+- Machine Learning
+- Nonprofit
+- Clinical Decision Support
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,5 +50,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/human-dx-domain-security.yml
 - type: Website
   url: https://humandx.org
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
