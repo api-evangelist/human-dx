@@ -51,7 +51,7 @@ tags:
 - Healthcare
 - Medical
 - Diagnosis
-- Machine-Learning
+- Machine Learning
 - Non-Profit
 - Clinical Decision Support
 tags_raw:
@@ -63,6 +63,7 @@ tags_raw:
 - Machine Learning
 - Nonprofit
 - Clinical Decision Support
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
